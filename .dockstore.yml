@@ -3,3 +3,5 @@ workflows:
   - subclass: WDL
     primaryDescriptorPath: /DNANexus/Mutect2/Mutect2_with_dxCompiler/mutect2.wdl  # absolute path
     testParameterFiles:   # absolute path
+    authors:
+      - name: Weiwei Bian
