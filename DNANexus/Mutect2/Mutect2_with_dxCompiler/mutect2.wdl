@@ -579,8 +579,8 @@ task M2 {
     command <<<
         set -e
 
-      # export GATK_LOCAL_JAR"/root/gatk.jar"
-        export GATK_LOCAL_JAR=~{default="/root/gatk.jar" gatk_override}
+         export GATK_LOCAL_JAR="/root/gatk.jar"
+      #  export GATK_LOCAL_JAR=~{default="/root/gatk.jar" gatk_override}
         # We need to create these files regardless, even if they stay empty
         touch bamout.bam
         touch f1r2.tar.gz
