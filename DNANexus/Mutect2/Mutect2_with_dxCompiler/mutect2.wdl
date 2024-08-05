@@ -679,7 +679,7 @@ task MergeVCFs {
     }
 
     runtime {
-        docker: "dx://project-G5fp8J0JVGgXJvJ31J1Gf5P5:file-G607qQjJVGgXxygg7KVYXJq1"
+        docker: "broadinstitute/gatk:4.6.0.0"
         dx_instance_type: "mem3_ssd1_v2_x2"
         #docker: "dx://project-G5fp8J0JVGgXJvJ31J1Gf5P5:file-G607qQjJVGgXxygg7KVYXJq1"
         #docker: runtime_params.gatk_docker
