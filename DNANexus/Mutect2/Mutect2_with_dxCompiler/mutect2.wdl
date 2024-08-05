@@ -452,7 +452,7 @@ task CramToBam {
     }
 
     runtime {
-        docker: "dx://project-G5fp8J0JVGgXJvJ31J1Gf5P5:file-G607qQjJVGgXxygg7KVYXJq1"
+        docker: "broadinstitute/gatk:4.6.0.0"
         dx_instance_type: "mem3_ssd1_v2_x2"
         #docker: "dx://project-G5fp8J0JVGgXJvJ31J1Gf5P5:file-G6FxY38JVGgk0qjX0vXGYV3b"
         #docker: "us.gcr.io/broad-gotc-prod/genomes-in-the-cloud:2.3.3-1513176735"
@@ -494,7 +494,7 @@ task SplitIntervals {
     }
 
     runtime {
-        docker: "dx://project-G5fp8J0JVGgXJvJ31J1Gf5P5:file-G607qQjJVGgXxygg7KVYXJq1"
+        docker: "broadinstitute/gatk:4.6.0.0"
         dx_instance_type: "mem3_ssd1_v2_x2"
         #docker: "dx://project-G5fp8J0JVGgXJvJ31J1Gf5P5:file-G607qQjJVGgXxygg7KVYXJq1"
         #docker: runtime_params.gatk_docker
@@ -633,7 +633,7 @@ task M2 {
     >>>
 
     runtime {
-        docker: "dx://project-G5fp8J0JVGgXJvJ31J1Gf5P5:file-G607qQjJVGgXxygg7KVYXJq1"
+        docker: "broadinstitute/gatk:4.6.0.0"
         dx_instance_type: "mem3_ssd1_v2_x2"
         #docker: "dx://project-G5fp8J0JVGgXJvJ31J1Gf5P5:file-G607qQjJVGgXxygg7KVYXJq1"
         #docker: gatk_docker
@@ -726,7 +726,7 @@ task MergeBamOuts {
     >>>
 
     runtime {
-        docker: "dx://project-G5fp8J0JVGgXJvJ31J1Gf5P5:file-G607qQjJVGgXxygg7KVYXJq1"
+        docker: "broadinstitute/gatk:4.6.0.0"
         dx_instance_type: "mem3_ssd1_v2_x2"
         #docker: "dx://project-G5fp8J0JVGgXJvJ31J1Gf5P5:file-G607qQjJVGgXxygg7KVYXJq1"
         #docker: runtime_params.gatk_docker
@@ -760,7 +760,7 @@ task MergeStats {
     }
 
     runtime {
-        docker: "dx://project-G5fp8J0JVGgXJvJ31J1Gf5P5:file-G607qQjJVGgXxygg7KVYXJq1"
+        docker: "broadinstitute/gatk:4.6.0.0"
         dx_instance_type: "mem3_ssd1_v2_x2"
         #docker: "dx://project-G5fp8J0JVGgXJvJ31J1Gf5P5:file-G607qQjJVGgXxygg7KVYXJq1"
         #docker: runtime_params.gatk_docker
@@ -796,7 +796,7 @@ task MergePileupSummaries {
     }
 
     runtime {
-        docker: "dx://project-G5fp8J0JVGgXJvJ31J1Gf5P5:file-G607qQjJVGgXxygg7KVYXJq1"
+        docker: "broadinstitute/gatk:4.6.0.0"
         dx_instance_type: "mem3_ssd1_v2_x2"
         #docker: "dx://project-G5fp8J0JVGgXJvJ31J1Gf5P5:file-G607qQjJVGgXxygg7KVYXJq1"
         #docker: runtime_params.gatk_docker
@@ -834,7 +834,7 @@ task LearnReadOrientationModel {
     }
 
     runtime {
-        docker: "dx://project-G5fp8J0JVGgXJvJ31J1Gf5P5:file-G607qQjJVGgXxygg7KVYXJq1"
+        docker: "broadinstitute/gatk:4.6.0.0"
         dx_instance_type: "mem3_ssd1_v2_x2"
         #docker: "dx://project-G5fp8J0JVGgXJvJ31J1Gf5P5:file-G607qQjJVGgXxygg7KVYXJq1"
         #docker: runtime_params.gatk_docker
@@ -870,7 +870,7 @@ task CalculateContamination {
     }
 
     runtime {
-        docker: "dx://project-G5fp8J0JVGgXJvJ31J1Gf5P5:file-G607qQjJVGgXxygg7KVYXJq1"
+        docker: "broadinstitute/gatk:4.6.0.0"
         dx_instance_type: "mem3_ssd1_v2_x2"
         #docker: "dx://project-G5fp8J0JVGgXJvJ31J1Gf5P5:file-G607qQjJVGgXxygg7KVYXJq1"
         #docker: runtime_params.gatk_docker
@@ -934,7 +934,7 @@ task Filter {
     }
 
     runtime {
-        docker: "dx://project-G5fp8J0JVGgXJvJ31J1Gf5P5:file-G607qQjJVGgXxygg7KVYXJq1"
+        docker: "broadinstitute/gatk:4.6.0.0"
         dx_instance_type: "mem3_ssd1_v2_x2"
         #docker: "dx://project-G5fp8J0JVGgXJvJ31J1Gf5P5:file-G607qQjJVGgXxygg7KVYXJq1"
         #docker: runtime_params.gatk_docker
@@ -1001,7 +1001,7 @@ task FilterAlignmentArtifacts {
     }
 
     runtime {
-        docker: "dx://project-G5fp8J0JVGgXJvJ31J1Gf5P5:file-G607qQjJVGgXxygg7KVYXJq1"
+        docker: "broadinstitute/gatk:4.6.0.0"
         dx_instance_type: "mem3_ssd1_v2_x2"
         #docker: "dx://project-G5fp8J0JVGgXJvJ31J1Gf5P5:file-G607qQjJVGgXxygg7KVYXJq1"
         #docker: runtime_params.gatk_docker
@@ -1136,7 +1136,7 @@ task Funcotate {
      >>>
 
     runtime {
-        docker: "dx://project-G5fp8J0JVGgXJvJ31J1Gf5P5:file-G607qQjJVGgXxygg7KVYXJq1"
+        docker: "broadinstitute/gatk:4.6.0.0"
         dx_instance_type: "mem3_ssd1_v2_x2"
         #docker: "dx://project-G5fp8J0JVGgXJvJ31J1Gf5P5:file-G607qQjJVGgXxygg7KVYXJq1"
         #docker: runtime_params.gatk_docker
