@@ -1,9 +1,5 @@
 version: 1.2
 workflows:
-  - subclass: <CWL | WDL | NFL | GALAXY>
-    primaryDescriptorPath: <String>  # absolute path
-    testParameterFiles: <String Array>  # absolute path
-    readMePath: <String> # absolute path
-    authors:
-      - name: <String>
-        email: <String>
+  - subclass: WDL
+    primaryDescriptorPath: /DNANexus/Mutect2/Mutect2_with_dxCompiler/mutect2.wdl  # absolute path
+    testParameterFiles:   # absolute path
